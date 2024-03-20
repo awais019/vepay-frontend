@@ -17,6 +17,21 @@
       path: "/contact",
     },
   ];
+
+  const { openMenu, toggleMenu } = useMenu();
+
+  function useMenu() {
+    const openMenu = ref(false);
+
+    function toggleMenu() {
+      openMenu.value = !openMenu.value;
+    }
+
+    return {
+      openMenu: computed(() => openMenu.value),
+      toggleMenu,
+    };
+  }
 </script>
 
 <template>
@@ -24,15 +39,31 @@
     <NuxtLink to="/">
       <span class="text-2xl font-extrabold">VePay</span>
     </NuxtLink>
-    <nav class="flex gap-8 text-lg font-medium items-center">
+    <nav
+      class="sm:gap-4 lg:gap-8 text-lg font-medium sm:items-center hidden sm:flex"
+    >
       <NuxtLink v-for="(link, index) in links" :key="index" :to="link.path">
         {{ link.name }}
       </NuxtLink>
     </nav>
     <button
-      class="bg-green-50 rounded-lg py-4 px-6 text-grey-15 text-lg font-medium"
+      class="bg-green-50 rounded-lg py-2 px-4 lg:py-4 lg:px-6 text-grey-15 text-lg font-medium hidden sm:block"
     >
       Download App
+    </button>
+    <button
+      class="sm:hidden p-2 bg-grey-15 rounded-md"
+      v-if="!openMenu"
+      @click="toggleMenu"
+    >
+      <Hamburger />
+    </button>
+    <button
+      class="sm:hidden p-2 bg-grey-15 rounded-md flex items-center justify-center"
+      v-else
+      @click="toggleMenu"
+    >
+      <Close />
     </button>
   </header>
 </template>

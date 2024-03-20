@@ -9,4 +9,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  components: ["~/components", "~/components/icons/"],
 });
