@@ -65,6 +65,7 @@
     >
       <Close />
     </button>
+    <MobileMenu v-if="openMenu" :links="links" />
   </header>
 </template>
 

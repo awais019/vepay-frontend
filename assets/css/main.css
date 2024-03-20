@@ -9,7 +9,6 @@
     color: theme("colors.white");
   }
 }
-
 nav > .router-link-active.router-link-exact-active {
   background-color: theme("colors.grey.15");
   border-radius: theme("borderRadius.lg");
