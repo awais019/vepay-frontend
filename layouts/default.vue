@@ -2,7 +2,7 @@
 
 <template>
   <div class="container">
-    Layout: default
+    <Header />
     <slot />
   </div>
 </template>
