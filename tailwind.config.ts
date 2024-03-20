@@ -16,6 +16,9 @@ export default {
       fontFamily: {
         sans: ["Barlow", ...theme.fontFamily.sans],
       },
+      backgroundImage: {
+        "hero-pattern": "url('/assets/images/abstract-pattern.png')",
+      },
     },
     colors: {
       green: {
