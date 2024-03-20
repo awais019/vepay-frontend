@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+import theme from "tailwindcss/defaultTheme";
+
 export default {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -9,7 +12,11 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Barlow", ...theme.fontFamily.sans],
+      },
+    },
   },
   plugins: [],
 };
