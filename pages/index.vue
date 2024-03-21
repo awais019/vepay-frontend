@@ -3,6 +3,7 @@
 <template>
   <HeroSection />
   <OurServices />
+  <WhyChooseUs />
 </template>
 
 <style scoped></style>
