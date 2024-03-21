@@ -5,6 +5,7 @@
   <OurServices />
   <WhyChooseUs />
   <Reviews />
+  <FAQs />
 </template>
 
 <style scoped></style>
