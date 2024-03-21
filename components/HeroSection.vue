@@ -34,7 +34,7 @@
       <div class="py-3 px-4 rounded-lg bg-grey-1 text-sm">Social Good</div>
     </div>
     <div
-      class="py-4 px-8 max-w-fit mx-auto rounded-lg border border-grey-15 items-center gap-2 bg-grey-12 bg-opacity-20 backdrop-blur-sm hidden md:flex"
+      class="py-4 my-7 px-8 max-w-fit mx-auto rounded-lg border border-grey-15 items-center gap-2 bg-grey-12 bg-opacity-20 backdrop-blur-sm hidden md:flex"
     >
       <div class="text-2xl text-grey-60">For</div>
       <div class="py-3 px-4 rounded-lg text-xl lg:text-2xl bg-grey-15">
@@ -51,6 +51,18 @@
       <div class="py-3 px-4 rounded-lg text-xl lg:text-2xl bg-grey-15">
         Social Good
       </div>
+    </div>
+    <div class="flex items-center justify-center gap-4">
+      <NuxtLink
+        to="/about"
+        class="border border-grey-20 bg-grey-12 bg-opacity-20 backdrop-blur-sm py-3 px-5 md:py-5 md:px-7 rounded-lg text-sm md:text-lg font-medium"
+        >About</NuxtLink
+      >
+      <NuxtLink
+        to="/contact"
+        class="py-3 px-5 bg-green-50 rounded-lg text-grey-15 text-sm font-medium md:py-5 md:px-7 md:text-lg"
+        >Contact Us</NuxtLink
+      >
     </div>
   </section>
 </template>
