@@ -4,6 +4,7 @@
   <HeroSection />
   <OurServices />
   <WhyChooseUs />
+  <Reviews />
 </template>
 
 <style scoped></style>
