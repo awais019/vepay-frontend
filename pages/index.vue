@@ -2,6 +2,7 @@
 
 <template>
   <HeroSection />
+  <OurServices />
 </template>
 
 <style scoped></style>

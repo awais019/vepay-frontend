@@ -18,7 +18,10 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('/assets/images/abstract-pattern.png')",
+        gradient1:
+          "linear-gradient(229deg, rgba(158, 255, 0, 0.20) -68.25%, rgba(158, 255, 0, 0.00) 32.16%), linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0.00) 100%);",
       },
+      background: {},
       container: {
         center: true,
         padding: "1rem",
