@@ -37,7 +37,11 @@
 <template>
   <header class="py-5 flex items-center justify-between">
     <NuxtLink to="/">
-      <span class="text-2xl font-extrabold">VePay</span>
+      <img
+        src="~/assets/images/vepay-logo.png
+      "
+        alt="vepay-logo"
+      />
     </NuxtLink>
     <nav
       class="sm:gap-4 lg:gap-8 text-lg font-medium sm:items-center hidden sm:flex"
