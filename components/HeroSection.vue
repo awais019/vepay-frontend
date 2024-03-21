@@ -64,6 +64,21 @@
         >Contact Us</NuxtLink
       >
     </div>
+    <div class="my-10">
+      <p
+        class="py-3 px-6 rounded-full border border-grey-15 bg-grey-10 text-sm md:text-lg font-medium max-w-fit mx-auto text-center"
+      >
+        Trusted by more than 250+ Customers
+      </p>
+      <div class="flex gap-5 justify-center items-center flex-wrap">
+        <div class="py-5 px-2 md:py-10 md:px-5"><Zapier /></div>
+        <div class="py-5 px-2 md:py-10 md:px-5"><Spotify /></div>
+        <div class="py-5 px-2 md:py-10 md:px-5"><Zoom /></div>
+        <div class="py-5 px-2 md:py-10 md:px-5"><Slack /></div>
+        <div class="py-5 px-2 md:py-10 md:px-5"><Amazon /></div>
+        <div class="py-5 px-2 md:py-10 md:px-5"><Adobe /></div>
+      </div>
+    </div>
   </section>
 </template>
 
