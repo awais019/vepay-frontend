@@ -14,7 +14,7 @@
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2">
       <div
-        class="flex flex-col gap-10 p-4 sm:p-8 lg:p-12 border-r border-b border-t lg:border-t-0 border-grey-15 justify-end"
+        class="flex flex-col gap-10 p-4 sm:p-8 lg:p-12 border-r border-b border-t lg:border-t-0 border-grey-15"
       >
         <div class="flex flex-col gap-4 lg:gap-10 items-start">
           <h3 class="text-xl md:text-3xl font-semibold text-green-80">
@@ -28,7 +28,7 @@
           </p>
         </div>
         <div
-          class="border border-grey-15 bg-grey-12 bg-opacity-20 p-2 md:p-5 flex gap-4 rounded-lg"
+          class="border border-grey-15 bg-grey-12 bg-opacity-20 p-2 md:p-5 flex gap-4 rounded-lg mt-auto"
         >
           <img src="~/assets/images/john-smith.png" alt="john smith" />
           <div>
@@ -41,7 +41,7 @@
       </div>
 
       <div
-        class="flex flex-col gap-10 p-4 sm:p-8 lg:p-12 border-r border-b border-t lg:border-t-0 border-grey-15 justify-end"
+        class="flex flex-col gap-10 p-4 sm:p-8 lg:p-12 border-r border-b border-t lg:border-t-0 border-grey-15"
       >
         <div class="flex flex-col gap-4 lg:gap-10 items-start">
           <h3 class="text-xl md:text-3xl font-semibold text-green-80">
@@ -56,7 +56,7 @@
           </p>
         </div>
         <div
-          class="border border-grey-15 bg-grey-12 bg-opacity-20 p-2 md:p-5 flex gap-4 rounded-lg"
+          class="border border-grey-15 bg-grey-12 bg-opacity-20 p-2 md:p-5 flex gap-4 rounded-lg mt-auto"
         >
           <img src="~/assets/images/sarah-johnson.png" alt="sarah johnson" />
           <div>
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col gap-10 p-4 sm:p-8 lg:p-12 border-r border-b border-t lg:border-t-0 border-grey-15 justify-end"
+        class="flex flex-col gap-10 p-4 sm:p-8 lg:p-12 border-r border-b border-t lg:border-t-0 border-grey-15"
       >
         <div class="flex flex-col gap-4 lg:gap-10 items-start">
           <h3 class="text-xl md:text-3xl font-semibold text-green-80">
@@ -82,7 +82,7 @@
           </p>
         </div>
         <div
-          class="border border-grey-15 bg-grey-12 bg-opacity-20 p-2 md:p-5 flex gap-4 rounded-lg"
+          class="border border-grey-15 bg-grey-12 bg-opacity-20 p-2 md:p-5 flex gap-4 rounded-lg mt-auto"
         >
           <img src="~/assets/images/mark-thompson.png" alt="mark thompson" />
           <div>
@@ -94,7 +94,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col gap-10 p-4 sm:p-8 lg:p-12 border-r border-b border-t lg:border-t-0 border-grey-15 justify-end"
+        class="flex flex-col gap-10 p-4 sm:p-8 lg:p-12 border-r border-b border-t lg:border-t-0 border-grey-15"
       >
         <div class="flex flex-col gap-4 lg:gap-10 items-start">
           <h3 class="text-xl md:text-3xl font-semibold text-green-80">
@@ -109,7 +109,7 @@
           </p>
         </div>
         <div
-          class="border border-grey-15 bg-grey-12 bg-opacity-20 p-2 md:p-5 flex gap-4 rounded-lg"
+          class="border border-grey-15 bg-grey-12 bg-opacity-20 p-2 md:p-5 flex gap-4 rounded-lg mt-auto"
         >
           <img src="~/assets/images/laura-adams.png" alt="laura adams" />
           <div>
