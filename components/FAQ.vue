@@ -22,7 +22,7 @@
 
 <template>
   <div
-    class="flex gap-5 items-start p-4 sm:p-6 lg:p-8 border-r border-b border-t lg:border-t-0 border-grey-15"
+    class="flex flex-col gap-1 md:flex-row md:gap-5 items-start p-4 sm:p-6 lg:p-8 border-r border-b border-t lg:border-t-0 border-grey-15"
   >
     <div
       class="p-4 md:p-5 rounded-lg bg-gradient1 text-lg md:text-xl lg:text-2xl xl:text-3xl"
