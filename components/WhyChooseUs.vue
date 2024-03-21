@@ -14,7 +14,7 @@
         <div
           class="flex flex-col items-start xl:flex-row gap-5 xl:items-center"
         >
-          <div class="p-6 rounded-lg bg-gradient1"><Badge /></div>
+          <div class="p-4 md:p-6 rounded-lg bg-gradient1"><Badge /></div>
           <h3 class="text-xl md:text-3xl font-semibold">
             Authenticity Guaranteed
           </h3>
@@ -32,7 +32,7 @@
         <div
           class="flex flex-col items-start xl:flex-row gap-5 xl:items-center"
         >
-          <div class="p-6 rounded-lg bg-gradient1"><People /></div>
+          <div class="p-4 md:p-6 rounded-lg bg-gradient1"><People /></div>
           <h3 class="text-xl md:text-3xl font-semibold">
             Operational Efficiency for Businesses
           </h3>
@@ -50,7 +50,7 @@
         <div
           class="flex flex-col items-start xl:flex-row gap-5 xl:items-center"
         >
-          <div class="p-6 rounded-lg bg-gradient1"><Shield /></div>
+          <div class="p-4 md:p-6 rounded-lg bg-gradient1"><Shield /></div>
           <h3 class="text-xl md:text-3xl font-semibold">
             Seamless Payment Solutions
           </h3>
@@ -68,7 +68,7 @@
         <div
           class="flex flex-col items-start xl:flex-row gap-5 xl:items-center"
         >
-          <div class="p-6 rounded-lg bg-gradient1"><Crown /></div>
+          <div class="p-4 md:p-6 rounded-lg bg-gradient1"><Crown /></div>
           <h3 class="text-xl md:text-3xl font-semibold">
             Market Leadership in Anti-Counterfeiting
           </h3>
