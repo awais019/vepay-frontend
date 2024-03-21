@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <section class="py-12 border border-grey-15">
+  <section class="mt-6 py-12 border border-grey-15">
     <h2 class="text-3xl md:text-5xl font-semibold text-center">Our Products</h2>
     <div class="flex items-center justify-center flex-wrap">
       <div

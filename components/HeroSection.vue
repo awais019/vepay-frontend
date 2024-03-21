@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <section class="pt-20 md:pt24 xl:pt-28">
+  <section class="pt-20 md:pt24 xl:pt-28 border border-grey-15">
     <h1
       class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-semibold text-center"
     >
