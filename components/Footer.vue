@@ -22,7 +22,7 @@
 <template>
   <footer class="py-7">
     <div class="flex flex-col md:flex-row md:justify-between gap-7">
-      <NuxtLink to="/">
+      <NuxtLink to="/" class="self-center">
         <img
           src="~/assets/images/vepay-logo.png
         "
