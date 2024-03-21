@@ -6,6 +6,7 @@
   <WhyChooseUs />
   <Reviews />
   <FAQs />
+  <Acknowledgment />
 </template>
 
 <style scoped></style>
