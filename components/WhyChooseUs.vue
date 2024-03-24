@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <section class="mt-6 border border-grey-15">
+  <section class="mt-6 border border-grey-15" id="whyus">
     <h2
       class="text-3xl md:text-5xl font-semibold text-center p-8 sm:p-12 md:p-16 lg:p-20 xl:py-24 2xl:py-28"
     >

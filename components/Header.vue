@@ -6,15 +6,15 @@
     },
     {
       name: "Why Us?",
-      path: "/why-us",
+      path: "/#whyus",
     },
     {
       name: "About",
-      path: "/about",
+      path: "/",
     },
     {
       name: "Contact",
-      path: "/contact",
+      path: "/",
     },
   ];
 

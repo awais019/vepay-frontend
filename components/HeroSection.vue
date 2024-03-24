@@ -57,12 +57,12 @@
       </div>
       <div class="flex items-center justify-center gap-4">
         <NuxtLink
-          to="/about"
+          to="/"
           class="border border-grey-20 bg-grey-12 bg-opacity-20 backdrop-blur-sm py-3 px-5 md:py-5 md:px-7 rounded-lg text-sm md:text-lg font-medium"
           >About</NuxtLink
         >
         <NuxtLink
-          to="/contact"
+          to="/"
           class="py-3 px-5 bg-green-50 rounded-lg text-grey-15 text-sm font-medium md:py-5 md:px-7 md:text-lg"
           >Contact Us</NuxtLink
         >
