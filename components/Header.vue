@@ -50,11 +50,12 @@
         {{ link.name }}
       </NuxtLink>
     </nav>
-    <button
+    <a
       class="bg-green-50 rounded-lg py-2 px-4 lg:py-4 lg:px-6 text-grey-15 text-lg font-medium hidden sm:block"
+      href="https://f005.backblazeb2.com/file/test1021/Vepay.apk"
     >
       Download App
-    </button>
+    </a>
     <button
       class="sm:hidden p-2 bg-grey-15 rounded-md"
       v-if="!openMenu"

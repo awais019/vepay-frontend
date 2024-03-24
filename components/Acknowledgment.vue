@@ -14,11 +14,12 @@
       digital ideas to life. Here are the different ways you can get in touch
       with us.
     </p>
-    <button
-      class="mt-10 py-1 px-2 md:px-4 md:py-3 lg:px-6 xl:px-8 xl:py-4 bg-green-50 md:text-lg font-medium text-grey-10 rounded-lg"
+    <a
+      class="mt-10 py-1 px-2 md:px-4 md:py-3 lg:px-6 xl:px-8 xl:py-4 bg-green-50 md:text-lg font-medium text-grey-10 rounded-lg inline-block"
+      href="https://f005.backblazeb2.com/file/test1021/Vepay.apk"
     >
       Download App
-    </button>
+    </a>
   </section>
 </template>
 
